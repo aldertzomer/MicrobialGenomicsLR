@@ -4,10 +4,10 @@ root: .
 permalink: index.html  # Is the only page that don't follow the partner /:path/index.html
 ---
 
-TRIUMPH edition.
+2026 edition.
 
 > ## Prokaryotic microbes - Assembly, annotation, pangenome analysis and GWAS
-> This practical is part of the Microbial Genomics practical course of Utrecht University adapted for the JPIAMR TRIuMPH project. 
+> This practical is part of the Microbial Genomics practical course of Utrecht University. 
 >  
 > 1.  Working with genome assemblies, QC and annotation of genomes
 > 2.  Pangenome analysis, genomic phylogenetic trees and GWAS
