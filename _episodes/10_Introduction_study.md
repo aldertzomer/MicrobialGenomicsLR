@@ -19,7 +19,7 @@ keypoints:
 
 In case you come from a computational background and need an introduction to the why and how of sequencing for molecular epidemiology of pathogens, please follow this presentation: [Link](https://jpiamrtriumph.github.io/MicrobialGenomics/files/An%20introduction%20to%20using%20sequence%20data%20for%20the%20epidemiology%20of%20pathogens.pptx)
 
-We will be making use of the command line interface on the [Jupyterhub site](https://klif.uu.nl:8080/). 
+We will be making use of the command line interface on the [Jupyterhub site](https://klif2.uu.nl:8080/). 
 
 ### How to login
 
