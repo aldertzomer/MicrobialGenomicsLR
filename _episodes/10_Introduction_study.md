@@ -40,25 +40,26 @@ The ESBL resistant dataset we will be using comes from this paper: [Within-farm 
 
 In your home folder (~/), you may find different files. It is your own responsibility to take care of your files. We will create the folders you will be using and download the read files that are part of this study. As assembling of all the genomes in this study would be too time consuming, we will assembling only two genomes per person. We will combine the outputs of each person later on for the genome comparisons.
   
-### Nanopore read files
+### Getting the Nanopore read files
 
-For the TRIuMPH course, we have downloaded the files for you and placed them in your folder. We will be making use of the folder called "reads".  
-
-~~~
-$ cd ~/reads
-$ ls
-~~~
-You can see your readfiles in this folder. 
-
-### How to get the nanopore read files if you use your own data. Not for this course. 
-
-If you take this course on your own, on your own server, you have to make an appropriate folder for your read files and get them from the minknow run folder.
+First we need to make an appropriate folder for your read files. In the example we will be making use of the folder called "reads"
 
 ~~~
 $ cd ~
 $ mkdir reads
 $ ls
 ~~~
+
+You will see you have created the folder reads. Next we need to get the appropriate files from the server. Go to the website [klif.uu.nl/klif/mgen/reads/lr](https://klif.uu.nl/klif/mgen/reads/lr/) and download the appropriate files. You will need one file for each sample. In the example I have picked the top two, but please take a look at the  the [Google Sheets table](https://docs.google.com/spreadsheets/d/1b8BPKcSUuW2YzgHdMaJN3MEbdgroRJa1dWnf5gkHr9M/edit#gid=0) and write your name in the appropriate field to find out which two samples are assigned to you. You will need to get two files.
+
+~~~
+$ cd ~/reads
+$ wget https://klif.uu.nl/klif/mgen/reads/lr/barcode01.fastq
+$ wget https://klif.uu.nl/klif/mgen/reads/lr/barcode02.fastq
+$ ls
+~~~
+
+If you take this course on your own, on your own server and your own sequencing data, you have to make an appropriate folder for your read files and get them from the minknow run folder.
 
 Only for your own data and your own server: You will see you have created the folder reads. Next we need to get the appropriate files from the server. Go to the folder containing the run of minknow using the terminal. You will need one folder for each sample. In the example I have picked the top two.
 
