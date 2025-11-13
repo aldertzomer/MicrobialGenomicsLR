@@ -66,10 +66,10 @@ $ cat taxonlist.txt |grep Escherichia
 ~~~
 {: .bash}
 
-Obviously we want to select the closest match as possible. In the case of e.g. Streptococcus pneumoniae, we would choose "Streptococcus pneumoniae". 
+Obviously we want to select the closest match as possible. In the case of e.g. _Streptococcus pneumoniae_, we would choose "Streptococcus pneumoniae". 
 
 
-CheckM can be run by the following commandline in the case of an E. coli genome called genome.fasta in the current folder (".") using the following command line. All output is stored in the folder checkmout and a useful table is checkmoutput.tsv. 
+In the case of an _E. coli_ genome, checkM can be run on a file called \[something\].fasta in the current folder (".") using the following command line. All output is stored in the folder checkmout and a useful table is checkmoutput.tsv. 
 ~~~
 $ 
 $ checkm taxonomy_wf species "Escherichia coli" . checkmout -t 1 -x fasta  >checkmoutput.tsv
