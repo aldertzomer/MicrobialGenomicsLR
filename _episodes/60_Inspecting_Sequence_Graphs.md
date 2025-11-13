@@ -41,6 +41,13 @@ P       contig_4        edge_4+ *
 ~~~
 {: .bash}
 
+If your contigs are very long, you may want to cut each line to 50 characters before viewing:
+
+~~~
+$ cut -c-50 assembly_graph.gfa |less
+~~~
+{: .bash}
+
 Can you understand how the sequence graph works? Look at the text. In the example all 4 contigs are only connected to themselves. What does that mean?
 
 ###  Visualizing the sequence graph
