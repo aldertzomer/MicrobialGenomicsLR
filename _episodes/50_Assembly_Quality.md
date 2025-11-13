@@ -71,8 +71,8 @@ Obviously we want to select the closest match as possible. In the case of e.g. _
 
 In the case of an _E. coli_ genome, checkM can be run on a file called \[something\].fasta in the current folder (".") using the following command line. All output is stored in the folder checkmout and a useful table is checkmoutput.tsv. 
 ~~~
-$ 
-$ checkm taxonomy_wf species "Escherichia coli" . checkmout -t 1 -x fasta  >checkmoutput.tsv
+$ cd ~/assembly/barcode02
+$ checkm taxonomy_wf species "Escherichia coli" . checkmout -t 1 -x fasta > checkmoutput.tsv
 ~~~
 {: .bash}
 
