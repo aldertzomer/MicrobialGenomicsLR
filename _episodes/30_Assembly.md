@@ -47,7 +47,7 @@ $ ls
 ~~~
 {: .bash}
 
-Now it's time to have a break, as assembly will take a while. The loop ensures it does both your genomes. In theory you can do this for 100s of genomes. Of course you have to change the names to suit your selected samples. 
+Now it's time to have a break, as assembly will take a while (~15 minutes). The loop ensures it does both your genomes. In theory you can do this for 100s of genomes. Of course you have to change the names to suit your selected samples. 
 
 The assemblies are found in the folders in the folder ~/assembly. The end result is called assembly.fasta. Inspect the log file as well (look at the end of the file) and the info file.  In the next lecture we will explain about reads, readpairs, contigs, scaffolds, which are used in Illumina and Nanopore sequencing. 
 
