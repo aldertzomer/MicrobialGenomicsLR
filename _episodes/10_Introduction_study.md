@@ -19,18 +19,18 @@ keypoints:
 
 In case you come from a computational background and need an introduction to the why and how of sequencing for molecular epidemiology of pathogens, please follow this presentation: [Link](https://jpiamrtriumph.github.io/MicrobialGenomics/files/An%20introduction%20to%20using%20sequence%20data%20for%20the%20epidemiology%20of%20pathogens.pptx)
 
-We will be making use of the command line interface on the [Jupyterhub site](https://klif2.uu.nl:8080/). 
+We will be making use of the command line interface on the [Jupyterhub site](https://klif2.uu.nl:8080/). This link does not work on Safari.
 
 ### How to login
 
-The server we will be using has host address [Jupyterhub site](https://klif.uu.nl:8080/). Please login using your webbrowser. The username and password have been given in the group chat. Please take a look at the  the [Google Sheets table](https://docs.google.com/spreadsheets/d/1ImRY5QPblAv_LZrwCkHGQOKdyYQ4XHkvtYl9k8UNoKI/edit?usp=sharing) and write your name in the appropriate field to find out which two samples are assigned to you. To acccess the terminal, click on "New", top left and open "Linux Terminal". Bookmark it and give it an appropriate name so you can find it again later. 
+The server we will be using has host address [Jupyterhub site](https://klif2.uu.nl:8080/). Please login using your webbrowser. The username and password have been given in the group chat. Please take a look at the  the [Google Sheets table](https://docs.google.com/spreadsheets/d/1ImRY5QPblAv_LZrwCkHGQOKdyYQ4XHkvtYl9k8UNoKI/edit?usp=sharing) and write your name in the appropriate field to find out which two samples are assigned to you. To acccess the terminal, click on "New", top left and open "Linux Terminal". Bookmark it and give it an appropriate name so you can find it again later. 
 
 ### Learning how the speak the language of the Linux commandline. 
 
 We will make use of a lecture and a set of exercises originally developed for the Fleming Fund / JPIAMR COINCIDE course by Rahadian Pratama, Soe Yu Naing and Aldert Zomer. After this basic Linux command line course which we will do together, we will continue on with the rest of the course which can be done at your own pace. The lecture and exercises are available below but will also be presented on screen.  
 
 The lecture can be found here: [Link](https://jpiamrtriumph.github.io/MicrobialGenomics/files/Intro%20Linux%20Commandline%20and%20Nanopore%20Microbial%20Genomics%20Course.pptx)
-Most software is in the "genomics" conda environment. Activate that when starting the course with "conda activate genomics". 
+Most software is in the "genomics" conda environment. When starting the course use "conda init", close the terminal window and start a new one. The "genomics" conda environment can then be activated with "conda activate genomics". 
 
 ### Dataset
 
@@ -58,6 +58,8 @@ $ wget https://klif.uu.nl/klif/mgen/reads/lr/barcode01.fastq
 $ wget https://klif.uu.nl/klif/mgen/reads/lr/barcode02.fastq
 $ ls
 ~~~
+
+### Following the course on your own?
 
 If you take this course on your own, on your own server and your own sequencing data, you have to make an appropriate folder for your read files and get them from the minknow run folder.
 
