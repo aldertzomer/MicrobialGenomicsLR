@@ -2,7 +2,7 @@
 start: false
 title: "Bacterial GWAS Lecture"
 exercises: 0
-teaching: 0
+teaching: 30
 questions:
 - "Can we associate the presence of genes with phenotypes"
 - "What is population structure correction"
