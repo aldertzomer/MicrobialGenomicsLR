@@ -1,7 +1,7 @@
 ---
 title: "Wrapup"
 exercises: 0
-teaching: 20
+teaching: 10
 questions:
 - "Do your findings match the resistance genes detected?"
 objectives:
