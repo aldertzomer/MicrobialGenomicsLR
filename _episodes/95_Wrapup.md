@@ -7,7 +7,7 @@ questions:
 objectives:
 - Learn how to compare results obtained with different methods"
 keypoints:
-- "Colistin resistance is associated with mcr-1"
+- "ESBL resistance is associated with a extended spectrum betalactamase."
 ---
 
 ## Wrapup
