@@ -50,7 +50,7 @@ $ mkdir reads
 $ ls
 ~~~
 
-You will see you have created the folder reads. Next we need to get the appropriate files from the server. Go to the website [klif.uu.nl/klif/mgen/reads/lr](https://klif.uu.nl/klif/mgen/reads/lr/) and download the appropriate files. You will need one file for each sample. In the example I have picked the top two, but please take a look at the  the [Google Sheets table](https://docs.google.com/spreadsheets/d/1b8BPKcSUuW2YzgHdMaJN3MEbdgroRJa1dWnf5gkHr9M/edit#gid=0) and write your name in the appropriate field to find out which two samples are assigned to you. You will need to get two files.
+You will see you have created the folder reads. Next we need to get the appropriate files from the server. Go to the website [klif.uu.nl/klif/mgen/reads/lr](https://klif.uu.nl/klif/mgen/reads/lr/) and download the appropriate files. You will need one file for each sample. In the example I have picked the top two, but please take a look at the  the [Google Sheets table](https://docs.google.com/spreadsheets/d/1ImRY5QPblAv_LZrwCkHGQOKdyYQ4XHkvtYl9k8UNoKI/edit?gid=397141828#gid=397141828) and write your name in the appropriate field to find out which two samples are assigned to you. You will need to get two files.
 
 ~~~
 $ cd ~/reads
