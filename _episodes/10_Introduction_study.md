@@ -59,6 +59,8 @@ $ wget https://klif.uu.nl/klif/mgen/reads/lr/barcode02.fastq
 $ ls
 ~~~
 
+<--
+
 ### Following the course on your own?
 
 If you take this course on your own, on your own server and your own sequencing data, you have to make an appropriate folder for your read files and get them from the minknow run folder.
@@ -66,6 +68,7 @@ If you take this course on your own, on your own server and your own sequencing 
 Only for your own data and your own server: You will see you have created the folder reads. Next we need to get the appropriate files from the server. Go to the folder containing the run of minknow using the terminal. You will need one folder for each sample. In the example I have picked the top two.
 
 The MinKNOW software of Nanopore often generates several "barcode" folders of the samples you sequenced. Each barcode corresponds to one sample. In the folder you will find several files, each has several thousand nanopore reads. We need to combine these reads into a single file so that we can process these further. The command we will be using is [zcat](https://manpages.debian.org/testing/zutils/zcat.1.en.html). This commands combines unzipping a file with displaying it. We will redirect (>) the output into a new file which we can use.
+-->
 
 ~~~
 $ cd _location_of_run_folder_minknow_ #replace with your own run
